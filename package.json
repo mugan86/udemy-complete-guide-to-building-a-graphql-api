@@ -1,0 +1,22 @@
+{
+  "name": "graphql-udemy",
+  "version": "1.0.0",
+  "description": "GraphQL Course Udemy Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist/ && node dist/",
+    "serve": "babel src --out-dir dist/ && node dist/serve.js"
+  },
+  "author": "Anartz Mugika <mugan86@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
