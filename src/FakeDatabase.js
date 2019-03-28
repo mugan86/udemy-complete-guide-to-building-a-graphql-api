@@ -1,4 +1,4 @@
-export class FakeDatabase {
+class FakeDatabase {
 
     constructor() {
         this.authors = [
