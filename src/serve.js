@@ -11,4 +11,4 @@ app.use('/graphql', graphqlHTTP ({
 }));
 
 console.log('Starting server...');
-app.listen(4500);
+app.listen(process.env.PORT || 5000);
