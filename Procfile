@@ -1,3 +1,3 @@
 // Procfile
 
-web: node dist/server.js
+web: node ./app/dist/server.js
