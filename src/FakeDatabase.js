@@ -25,6 +25,12 @@ class FakeDatabase {
                 title: 'Building a REST API',
                 content: 'A pratical guide on how to build your own REST API.',
                 author: '77e2448a',
+            },
+            {
+                id: 4,
+                title: 'The Fullstack Tutorial for GraphQL',
+                content: 'The free and open-source tutorial to learn all around GraphQL to go from zero to production.',
+                author: '0beb564c',
             }
         ];
 
